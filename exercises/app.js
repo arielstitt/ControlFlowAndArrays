@@ -1,9 +1,13 @@
 //ACCESS GRANTED
 
-const allowedAge = 7;
+if (condition) {
+  //parent conditional
 
-if(allowedAge >= 18 ) {
-    console.log("access granted. welcome aboard!")
+  //child conditional
+
+  if (conditionToRunIfTrue) {
+  } else {
+  }
 } else {
-    console.log("You are too young to access this content")
+  //if parent condition is true
 }
